@@ -1,0 +1,82 @@
+.h1{
+	text-align: center;
+	background-image:linear-gradient(to right, rgb(229, 255, 0),rgb(0, 4, 255));
+	color:rgb(255, 0, 0);
+	padding:0px;
+	border:0px;
+	font-family: 'Finger Paint', cursive;
+	font-size: 70px;
+	margin-top: 0;
+	border-top-width: 0;
+	width: 100%
+}
+body{
+	background-image:url("1_FEcr9_owB5KplrClDpRenA.png");
+	background-size:cover;
+	position: relative;
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.ul{
+display:grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+margin-top: 0px;
+
+}
+ul li{
+	
+	padding: 10px 10px 20px 10px;
+	border:5px solid rgb(118, 118, 250);
+	font-family: 'Amatic SC';
+	margin: 10px 10px;
+	width: 400px;
+	box-shadow: 0 0 3rem rgba(41, 94, 255, 0.88);
+	align-content: center;
+
+}
+ul li:hover{
+	transition:all 0.3s;
+	transform:scale(1.1);
+	border:10px solid rgb(40, 40, 248);
+	padding:0;
+}
+
+img{
+	width:100%;
+	height: 500px;
+}
+h3{
+	color: aqua;
+	font-family:'Amatic SC' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bolder;
+	padding: 0;
+	margin:0;
+}
+#container{
+	color:aqua;
+	font-family:'Amatic SC', cursive;
+font-size: 50px;
+grid-row: 2 / 3 ;
+grid-column: 2 / 3 ;
+list-style: none;
+border-width: 0;
+box-shadow: 0px 0px 0px 0px rgba(32,33,36,0.88);
+}
+#sm{
+	position: relative;
+	bottom: 80px;
+	text-align: center;
+	color: aqua;
+	font-family: 'Amatic SC';
+	font-size: 60px;
+}
+#warn{
+	width: 600px;
+	text-align: center;
+	color: aqua;
+	font-family: 'Amatic SC';
+	font-size: 60px;
+}
