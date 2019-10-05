@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Saira+Extra+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<h1 class="h1">Rock-Paper-Scissor Game</h1>
+	<div id="warn">Pick Your Weapon....</div>
+	<div id="sm"></div>
+	<ul class="ul">
+	<li><img onclick="rock()" onmousedown="soundonClick.play()" class="img1" src="rock.jpg"><h3>ROCK</h3></li>
+	<li><img onclick="paper()" onmousedown="soundonClick.play()" class="img2" src="paper.png"><h3>PAPER</h3></li>
+	<li><img onclick="scissor()" onmousedown="soundonClick.play()" class="img3" src="scissors.gif"><h3>SCISSOR</h3></li>
+	<li id="container"></li>
+	<div id = "scoreBoard">  
+        <span id = computerScore></span><span id = playerScore></span>
+	</div>
+	
+<script type="text/javascript" src="java.js"></script>
 
+
+</body>
+</html>
